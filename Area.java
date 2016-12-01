@@ -6,15 +6,14 @@ public class Area {
 	int length;
 	int width;
 	
-	int area(int a){
-		
-		int area = a * a;
-		return area;
+	area(int a){
+	    int area = a * a;
+	    System.out.println("Area of Square : " + area);
 	}
 	
-	int area(int length, int width){
+	area(int length, int width){
 		int area = length * width;
-		return area;
+		System.out.println("Area of Rectangle : " + area);
 		
 	}
 	
